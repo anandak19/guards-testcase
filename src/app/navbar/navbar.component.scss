@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  &__logo {
+    margin: 0;
+  }
+
+  &__brand-name {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+    &__nav-item {
+      margin-right: 20px;
+    }
+
+    &__nav-link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+          
+      &:hover {
+        text-decoration: underline;
+      }
+    
+      &.active {
+        font-weight: bold;
+      }
+    }
+}

@@ -1,0 +1,52 @@
+<div class="navbar">
+  <h1 class="navbar__logo">
+    <a class="navbar__brand-name" routerLink="">ABC Company</a>
+  </h1>
+
+  <ul class="navbar__nav-list">
+
+    <li class="navbar__nav-item">
+      <a
+        class="navbar__nav-link"
+        routerLink=""
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        ariaCurrentWhenActive="page"
+        >Home</a
+      >
+    </li>
+    
+    <li class="navbar__nav-item">
+      <a
+        class="navbar__nav-link"
+        routerLink="login"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        ariaCurrentWhenActive="page"
+        >Login</a
+      >
+    </li>
+
+    <li class="navbar__nav-item">
+      <a
+        class="navbar__nav-link"
+        routerLink="dashboard"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        ariaCurrentWhenActive="page"
+        >Dashboard</a
+      >
+    </li>
+
+    <li class="navbar__nav-item">
+      <a
+        class="navbar__nav-link"
+        routerLink="profile"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        ariaCurrentWhenActive="page"
+        >Profile</a
+      >
+    </li>
+  </ul>
+</div>
